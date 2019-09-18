@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/confirm"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
+        tools:text="账号绑定大成功！" />
+
+    <TextView
+        android:id="@+id/msg"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/making_card" />
+
+    <include
+        layout="@layout/layout_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_info_type"
+            android:layout_width="425dp"
+            android:layout_height="425dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="74dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_bigbed" />
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="318dp"
+            android:text="@string/info_card"
+            android:textColor="#99150000"
+            android:textSize="42.26sp" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/goNext"
+        style="@style/ClickButton"
+        android:layout_marginBottom="100dp"
+        android:visibility="gone"
+        android:text="@string/over" />
+</LinearLayout>

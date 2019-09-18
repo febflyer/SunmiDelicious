@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/circular_root"
+        android:layout_width="@dimen/cir_icon"
+        android:layout_height="@dimen/cir_icon"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="@dimen/cir_content"
+            android:layout_height="@dimen/cir_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_idcard" />
+        <include layout="@layout/anim_success" />
+
+        <com.sunmi.sunmiK1Ext.view.CircularProgressView
+            android:id="@+id/circularProgressView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <include
+        layout="@layout/layout_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/TitleText"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/id_card_title" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="@string/detect_below"
+        android:textColor="#CCFF6000"
+        android:textSize="36sp" />
+
+
+</LinearLayout>

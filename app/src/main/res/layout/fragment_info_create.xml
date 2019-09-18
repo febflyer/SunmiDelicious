@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="603dp"
+        android:layout_height="374dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/ensure_order_bg"
+        android:orientation="horizontal"
+        android:paddingStart="43dp"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/EnsureTableTitle"
+                android:text="@string/order_name" />
+
+            <TextView
+                style="@style/EnsureTableTitle"
+                android:text="@string/order_date" />
+
+            <TextView
+                style="@style/EnsureTableTitle"
+                android:text="@string/order_type" />
+
+            <TextView
+                style="@style/EnsureTableTitle"
+                android:text="@string/order_money" />
+
+            <TextView
+                style="@style/EnsureTableTitle"
+                android:text="@string/order_number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_name"
+                style="@style/EnsureTableContent"
+                />
+
+            <TextView
+                android:id="@+id/order_date"
+                style="@style/EnsureTableContent"
+              />
+
+            <TextView
+                android:id="@+id/order_type"
+                style="@style/EnsureTableContent"
+                 />
+
+            <TextView
+                android:id="@+id/order_money"
+                style="@style/EnsureTableContent"
+                 />
+
+            <TextView
+                android:id="@+id/order_number"
+                style="@style/EnsureTableContent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <include
+        layout="@layout/layout_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/tv_title_ensure_order" />
+
+    <TextView
+        android:id="@+id/goNext"
+        style="@style/ClickButton"
+        android:text="@string/ensure_data" />
+
+    <TextView
+        android:id="@+id/recharge"
+        style="@style/ClickButton"
+        android:text="@string/scan_recharge" />
+
+</LinearLayout>

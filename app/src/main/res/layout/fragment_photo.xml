@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/TitleText"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin_top"
+        tools:text="您的房号为888" />
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="即将核实电话号码"
+        android:textColor="#99150000"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_success"
+        android:layout_width="266dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="154dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_success"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/photoToPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="217dp"
+        android:paddingStart="82dp"
+        android:paddingEnd="82dp">
+
+        <FrameLayout
+            android:layout_width="302dp"
+            android:layout_height="302dp"
+            android:background="@drawable/photo_cir_bg">
+
+            <ImageView
+                android:id="@+id/iv_idcard"
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:layout_gravity="center"
+                android:background="#f2f2f2"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="302dp"
+            android:layout_height="302dp"
+            android:layout_gravity="end"
+            android:background="@drawable/photo_cir_bg">
+
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:layout_gravity="center"
+                android:background="#f2f2f2"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

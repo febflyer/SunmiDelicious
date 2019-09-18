@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="crumbs_top">128dp</dimen>
+    <dimen name="title_margin_top">85dp</dimen>
+    <dimen name="cir_icon">558dp</dimen>
+    <dimen name="cir_content">540dp</dimen>
+    <dimen name="cir_height">960dp</dimen>
+
+</resources>

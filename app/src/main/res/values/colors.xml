@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="orange">#FFFF6000</color>
+    <color name="phone_pressed">#08000000</color>
+    <color name="btn_press">#E65800</color>
+
+</resources>

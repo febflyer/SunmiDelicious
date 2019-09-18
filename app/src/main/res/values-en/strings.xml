@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">SunmiK1Ext</string>
+
+    <string name="hotel_stay_in">Check-in</string>
+    <string name="hotel_stay_out">Check-out</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_tv">This program is for self-service check-in only, \n
+        all input information will not be saved, please feel free to experience</string>
+    <string name="home_welcome">Welcome</string>
+    <string name="test_only">Hotel self check-in demo</string>
+    <string name="time_exit"> seconds after the automatic exit</string>
+    <string name="detect_below">Here below is the scanning area </string>
+    <string name="order_member_no_card">I am E-member,year~</string>
+    <string name="info_title"><Data><![CDATA[Your room number is <font color="#0f0">%d</font>]]></Data></string>
+    <string name="making_card">Room card is being produced …</string>
+    <string name="id_card_title">Put your ID card close to the scanning area</string>
+    <string name="mifare_card_title">Put your membership card close to the scanning area</string>
+    <string name="tv_title_ensure_order">Please confirm the order</string>
+    <string name="order_name">Name</string>
+    <string name="order_date">Date</string>
+    <string name="order_type">Type</string>
+    <string name="order_money">Balance</string>
+    <string name="order_number">NO.</string>
+    <string name="ensure_data">Confirmation</string>
+    <string name="scan_recharge">Recharge</string>
+
+    <string name="tips_idcard_fail">ID card read service connection failed </string>
+    <string name="tips_micard_fail">Micard service connection failed</string>
+    <string name="tips_services_success">Service initialization succeeded</string>
+    <string name="tips_idcard_read_fail">ID card reading failed</string>
+    <string name="tips_micard_send_fail">Card issuance failed, exiting the card issuance process</string>
+
+
+    <string name="room_one">Single room</string>
+    <string name="room_two">Standard twin-bed room</string>
+    <string name="room_all">Double-bed Room/King Room </string>
+
+    <string name="lv_one">Bronze</string>
+    <string name="lv_two">Diamond</string>
+    <string name="lv_all">TheKing</string>
+
+    <string name="dialog_gohome_tips">Are you sure to return to the home？\n All information will be cleared</string>
+    <string name="dialog_no_micard">Sorry, there is no room card available, \nplease contact the staff. </string>
+    <string name="dialog_no_idcard">No valid documents detected, please try again </string>
+    <string name="dialog_no_face">No face detected, please try again</string>
+    <string name="dialog_replay">Retry</string>
+    <string name="dialog_gohome">Back to Home</string>
+    <string name="dialog_cancel">Continue</string>
+
+
+    <string name="photo_check">Verification of Identity… </string>
+    <string name="photo_check_success">Authentication succeeded</string>
+
+    <string name="phone_tips">Enter your mobile number</string>
+    <string name="phone_input_tip">Please enter your mobile number to verify</string>
+
+    <string name="recharge_tips">Uh-huh. I m not telling you it s a virtual tradeo(*￣︶￣*)o</string>
+    <string name="recharge_pre_num">Default：258</string>
+    <string name="recharge_commit">Touch me</string>
+    <string name="recharge_cancel">Cruelly refused</string>
+
+    <string name="idcard_scan">ID card scanning, please wait…</string>
+    <string name="idcard_scan_success">Scan succeeded, please take your ID card.</string>
+    <string name="idcard_scan_next">Face authentication will start next… </string>
+
+
+    <string name="info_num_hotel">Your room number is </string>
+    <string name="info_hotel_success1">Check in with success</string>
+    <string name="info_hotel_success2">Please take away your room card and all your belongings </string>
+    <string name="info_card">1 room card in total, 0 has been made </string>
+
+
+    <string name="face_success">Photo taken successfully</string>
+    <string name="face_success_next">Authentication will start…</string>
+    <string name="face_this_face">Make your face is inside</string>
+    <string name="face_look_camera">Please face the camera above</string>
+
+
+    <string name="over">Completed</string>
+
+    <string name="commit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="delete">Delete</string>
+
+</resources>

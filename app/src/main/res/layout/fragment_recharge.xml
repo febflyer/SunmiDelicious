@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/msg"
+        style="@style/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:text="@string/recharge_tips" />
+
+    <include
+        layout="@layout/layout_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/rec_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/phone_key_bg"
+        android:divider="@drawable/horizontal_divider"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/rec_num"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:digits="0123456789"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/recharge_pre_num"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:textColor="#E6333C4F"
+            android:textColorHint="#33333C4F"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            style="@style/phone_key_line"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/one"
+                style="@style/phone_key_item"
+                android:tag="1"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/two"
+                style="@style/phone_key_item"
+                android:tag="2"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/three"
+                style="@style/phone_key_item"
+                android:tag="3"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/phone_key_line"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/four"
+                style="@style/phone_key_item"
+                android:tag="4"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/five"
+                style="@style/phone_key_item"
+                android:tag="5"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/six"
+                style="@style/phone_key_item"
+                android:tag="6"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/phone_key_line"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/seven"
+                style="@style/phone_key_item"
+                android:tag="7"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/eight"
+                style="@style/phone_key_item"
+                android:tag="8"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/nine"
+                style="@style/phone_key_item"
+                android:tag="9"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/phone_key_line"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/clear"
+                style="@style/phone_key_item"
+                android:text="@string/clear" />
+
+            <TextView
+                android:id="@+id/zero"
+                style="@style/phone_key_item"
+                android:tag="0"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/delete"
+                style="@style/phone_key_item"
+                android:text="@string/delete" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confirm"
+        style="@style/ClickButton"
+        android:layout_width="450dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="103dp"
+        android:enabled="true"
+        android:text="@string/recharge_commit" />
+
+    <TextView
+        android:id="@+id/cancel"
+        style="@style/ClickButton"
+        android:layout_width="450dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="103dp"
+        android:enabled="true"
+        android:text="@string/recharge_cancel" />
+
+</LinearLayout>

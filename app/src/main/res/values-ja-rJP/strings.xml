@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SunmiK1Ext</string>
+
+    <string name="hotel_stay_in">チェックイン</string>
+    <string name="hotel_stay_out">チェックアウト</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    　　<string name="home_tv">本システムは自動チェックインの体験のみ提供，\n 使用されたデータは保存することはない為，\n ご安心して体験してください</string>
+    <string name="home_welcome">ようこそ</string>
+    <string name="test_only">ホテル自動チェックインデモストレーション</string>
+    <string name="time_exit">秒後に自動終了します...</string>
+    <string name="detect_below">スキャナーは下方にあります</string>
+    <string name="order_member_no_card">私は電子会員です</string>
+    <string name="info_title"><Data><![CDATA[部屋番号は<font color="#0f0">%d</font>]]></Data></string>
+    <string name="making_card">ルームキーを作成中…</string>
+    <string name="id_card_title">身分証明書をスキャンしてください</string>
+    <string name="mifare_card_title">あなたのメンバーシップをスキャンしてください</string>
+    <string name="tv_title_ensure_order">予約情報を確認してください</string>
+    <string name="order_name">名前</string>
+    <string name="order_date">日付</string>
+    <string name="order_type">類型</string>
+    <string name="order_money">残高</string>
+    <string name="order_number">アカウント</string>
+    <string name="ensure_data">確定</string>
+    <string name="scan_recharge">充お金</string>
+
+    <string name="tips_idcard_fail">身分証明書の取得に失敗しました</string>
+    <string name="tips_micard_fail">micardサービスの接続に失敗しました</string>
+    <string name="tips_services_success">サービスの初期化に成功しました</string>
+    <string name="tips_idcard_read_fail">身分証明書読み込み異常</string>
+    <string name="tips_micard_send_fail">ルームキーの発行に失敗、発行過程を終了します</string>
+
+
+    <string name="room_one">シングルルーム</string>
+    <string name="room_two">ダブルルーム</string>
+    <string name="room_all">スィートルーム</string>
+
+    <string name="lv_one">青銅</string>
+    <string name="lv_two">ダイヤモンド</string>
+    <string name="lv_all">王</string>
+
+    <string name="dialog_gohome_tips">ホームページに戻りますか？\n全ての情報を削除します</string>
+    <string name="dialog_no_micard">申し訳ございません、発行できるルームキーがありません、\nスタッフをお呼びください</string>
+    <string name="dialog_no_idcard">有効な証明書を検知できません、もう一度お試しください</string>
+    <string name="dialog_no_face">顔を確認できません、もう一度お試しください</string>
+    <string name="dialog_replay">もう一度お試しください</string>
+    <string name="dialog_gohome">ホームページへ戻る</string>
+    <string name="dialog_cancel">続ける</string>
+
+    <string name="photo_check">身分証明書を確認中...</string>
+    <string name="photo_check_success">身分証明書の確認完了</string>
+
+    <string name="phone_tips">携帯番号を入力して下さい</string>
+    <string name="phone_input_tip">携帯番号を入力し、認証を行ってください</string>
+
+    <string name="recharge_tips">フン、これはバーチャル取引だとは言わないよo(*￣︶￣*)o</string>
+    <string name="recharge_pre_num">黙認：258</string>
+    <string name="recharge_commit">触ってみる</string>
+    <string name="recharge_cancel">思い切って断る</string>
+
+    <string name="idcard_scan">スキャン中，お待ちください…</string>
+    <string name="idcard_scan_success"> スキャン完了，証明書をお取りください</string>
+    <string name="idcard_scan_next">顔認証を開始します...</string>
+
+
+    <string name="info_num_hotel">部屋番号は</string>
+    <string name="info_hotel_success1">チェックイン完了</string>
+    <string name="info_hotel_success2">ルームキー及び荷物の置き忘れにご注意ください</string>
+    <string name="info_card">ルームキー作成１枚，作成済み０枚</string>
+
+
+    <string name="face_success">撮影成功</string>
+    <string name="face_success_next">身分の確認を開始します...</string>
+    <string name="face_this_face">枠内に顔が映るようにしてください</string>
+    <string name="face_look_camera">上方のカメラに顔を向けてください</string>
+
+
+    <string name="over">完成</string>
+
+    <string name="commit">提出</string>
+    <string name="clear">全て削除</string>
+    <string name="delete">削除</string>
+
+</resources>

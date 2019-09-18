@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">SunmiK1Ext</string>
+
+    <string name="hotel_stay_in">开始绑定</string>
+    <string name="hotel_stay_out">退房</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_tv">本程序仅供体验会员信息绑定使用，\n 所有录入信息均不会保存，请放心体验</string>
+    <string name="home_welcome">欢迎光临本店</string>
+    <string name="test_only">刷脸餐厅演示DEMO</string>
+    <string name="time_exit">秒后自动退出...</string>
+
+    <string name="detect_below">扫描区域在下方</string>
+    <string name="order_member_no_card">在下没有会员卡desu~o(*￣︶￣*)o</string>
+    <string name="info_title"><Data><![CDATA[您的房间号为<font color="#0f0">%d</font>]]></Data></string>
+    <string name="id_card_title">请将身份证放在扫描区</string>
+    <string name="mifare_card_title">请将会员卡放在扫描区</string>
+    <string name="tv_title_ensure_order">请确认信息</string>
+    <string name="order_name">会员姓名</string>
+    <string name="order_date">流水日期</string>
+    <string name="order_type">会员类型</string>
+    <string name="order_money">账户余额</string>
+    <string name="order_number">会员账号</string>
+    <string name="ensure_data">确认</string>
+    <string name="scan_recharge">充值</string>
+
+    <string name="tips_idcard_fail">身份证读取服务连接失败</string>
+    <string name="tips_micard_fail">micard服务连接失败</string>
+    <string name="tips_services_success">服务初始化成功</string>
+    <string name="tips_idcard_read_fail">身份证读取异常</string>
+    <string name="tips_micard_send_fail">发卡失败，退出发卡流程</string>
+
+
+    <string name="room_one">单间</string>
+    <string name="room_two">标准双人床</string>
+    <string name="room_all">大床房</string>
+
+    <string name="lv_one">青铜</string>
+    <string name="lv_two">钻石</string>
+    <string name="lv_all">王者</string>
+
+    <string name="dialog_gohome_tips">确认回到首页吗？\n所有信息将被清空</string>
+    <string name="dialog_no_micard">对不起，房卡已发完，\n请与工作人员联系</string>
+    <string name="dialog_no_idcard">未检测到有效证件，请重试</string>
+    <string name="dialog_no_face">未检测到人脸，请重试</string>
+    <string name="dialog_replay">重试</string>
+    <string name="dialog_gohome">返回首页</string>
+    <string name="dialog_cancel">继续办理</string>
+
+    <string name="photo_check">身份验证中...</string>
+    <string name="photo_check_success">身份验证成功</string>
+
+    <string name="phone_tips">输入手机号码确认订单</string>
+    <string name="phone_input_tip">请输入手机号码进行验证</string>
+
+    <string name="recharge_tips">哼哒，才不会告诉你这是虚拟交易呢o(*￣︶￣*)o</string>
+    <string name="recharge_pre_num">默认：258</string>
+    <string name="recharge_commit">抚摸一下</string>
+    <string name="recharge_cancel">狠心拒绝</string>
+
+    <string name="idcard_scan">正在扫描，请稍后…</string>
+    <string name="idcard_scan_success"> 扫描成功，请取⾛证件</string>
+    <string name="idcard_scan_next">即将开始刷脸认证...</string>
+
+
+    <string name="info_num_hotel">绑定账号大成功！</string>
+    <string name="making_card">小票打印中…</string>
+    <string name="info_hotel_success1">办理完成</string>
+    <string name="info_hotel_success2">请收好您的随身物品</string>
+    <string name="info_card">请注意左下方小票</string>
+
+
+    <string name="face_success">拍照成功</string>
+    <string name="face_success_next">即将开始身份验证...</string>
+    <string name="face_this_face">请确保人脸处于框内</string>
+    <string name="face_look_camera">请面向上方摄像头</string>
+
+
+    <string name="over">完成</string>
+
+    <string name="commit">提交</string>
+    <string name="clear">清除</string>
+    <string name="delete">删除</string>
+
+</resources>
